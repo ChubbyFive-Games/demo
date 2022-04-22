@@ -1,0 +1,27 @@
+[
+  {
+    "name": "twist",
+    "animationName": "Animation/Twist",
+    "materialName": "Materials/Twist",
+    "material": null,
+    "animator": null,
+    "attackAnimation": null,
+    "selected": true
+  },
+  {
+    "name": "fade",
+    "animationName": "Animation/Fade",
+    "materialName": "Materials/Fade",
+    "material": null,
+    "animator": null,
+    "attackAnimation": null,
+    "selected": true
+  }
+
+
+
+
+
+
+
+] 
