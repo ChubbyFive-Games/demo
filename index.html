@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | ChubbyFive-ColyseusDemo</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=720 height=1280 style="width: 720px; height: 1280px; background: #231F20"></canvas>
     <script src="Build/webgl-build.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -18,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/webgl-build.data.unityweb",
-        frameworkUrl: "Build/webgl-build.framework.js.unityweb",
-        codeUrl: "Build/webgl-build.wasm.unityweb",
+        dataUrl: "Build/webgl-build.data",
+        frameworkUrl: "Build/webgl-build.framework.js",
+        codeUrl: "Build/webgl-build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ChubbyFive-ColyseusDemo",
